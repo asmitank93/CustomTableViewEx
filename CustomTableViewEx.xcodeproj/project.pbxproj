@@ -14,6 +14,12 @@
 		E7A70B691C7ED4E100F15FB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B681C7ED4E100F15FB6 /* Images.xcassets */; };
 		E7A70B6C1C7ED4E100F15FB6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B6A1C7ED4E100F15FB6 /* LaunchScreen.xib */; };
 		E7A70B781C7ED4E200F15FB6 /* CustomTableViewExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A70B771C7ED4E200F15FB6 /* CustomTableViewExTests.m */; };
+		E7A70B831C7ED51D00F15FB6 /* MYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A70B821C7ED51D00F15FB6 /* MYTableViewCell.m */; };
+		E7A70B8A1C7ED79700F15FB6 /* 16755382-Seamless-pattern-texture-or-background-with-light-bulbs-on-yellow-background-Sign-of-creative-invent-Stock-Vector.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B851C7ED79700F15FB6 /* 16755382-Seamless-pattern-texture-or-background-with-light-bulbs-on-yellow-background-Sign-of-creative-invent-Stock-Vector.jpg */; };
+		E7A70B8B1C7ED79700F15FB6 /* american.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B861C7ED79700F15FB6 /* american.jpg */; };
+		E7A70B8C1C7ED79700F15FB6 /* batmanvssuperman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B871C7ED79700F15FB6 /* batmanvssuperman.jpg */; };
+		E7A70B8D1C7ED79700F15FB6 /* caption.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B881C7ED79700F15FB6 /* caption.jpg */; };
+		E7A70B8E1C7ED79700F15FB6 /* vinyl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7A70B891C7ED79700F15FB6 /* vinyl.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		E7A70B711C7ED4E200F15FB6 /* CustomTableViewExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A70B761C7ED4E200F15FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7A70B771C7ED4E200F15FB6 /* CustomTableViewExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewExTests.m; sourceTree = "<group>"; };
+		E7A70B811C7ED51D00F15FB6 /* MYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableViewCell.h; sourceTree = "<group>"; };
+		E7A70B821C7ED51D00F15FB6 /* MYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableViewCell.m; sourceTree = "<group>"; };
+		E7A70B851C7ED79700F15FB6 /* 16755382-Seamless-pattern-texture-or-background-with-light-bulbs-on-yellow-background-Sign-of-creative-invent-Stock-Vector.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "16755382-Seamless-pattern-texture-or-background-with-light-bulbs-on-yellow-background-Sign-of-creative-invent-Stock-Vector.jpg"; sourceTree = "<group>"; };
+		E7A70B861C7ED79700F15FB6 /* american.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = american.jpg; sourceTree = "<group>"; };
+		E7A70B871C7ED79700F15FB6 /* batmanvssuperman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batmanvssuperman.jpg; sourceTree = "<group>"; };
+		E7A70B881C7ED79700F15FB6 /* caption.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caption.jpg; sourceTree = "<group>"; };
+		E7A70B891C7ED79700F15FB6 /* vinyl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vinyl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,9 @@
 		E7A70B4F1C7ED4E100F15FB6 = {
 			isa = PBXGroup;
 			children = (
+				E7A70B841C7ED79700F15FB6 /* mov */,
+				E7A70B811C7ED51D00F15FB6 /* MYTableViewCell.h */,
+				E7A70B821C7ED51D00F15FB6 /* MYTableViewCell.m */,
 				E7A70B5A1C7ED4E100F15FB6 /* CustomTableViewEx */,
 				E7A70B741C7ED4E200F15FB6 /* CustomTableViewExTests */,
 				E7A70B591C7ED4E100F15FB6 /* Products */,
@@ -117,6 +133,18 @@
 				E7A70B761C7ED4E200F15FB6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7A70B841C7ED79700F15FB6 /* mov */ = {
+			isa = PBXGroup;
+			children = (
+				E7A70B851C7ED79700F15FB6 /* 16755382-Seamless-pattern-texture-or-background-with-light-bulbs-on-yellow-background-Sign-of-creative-invent-Stock-Vector.jpg */,
+				E7A70B861C7ED79700F15FB6 /* american.jpg */,
+				E7A70B871C7ED79700F15FB6 /* batmanvssuperman.jpg */,
+				E7A70B881C7ED79700F15FB6 /* caption.jpg */,
+				E7A70B891C7ED79700F15FB6 /* vinyl.jpg */,
+			);
+			path = mov;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +227,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A70B8B1C7ED79700F15FB6 /* american.jpg in Resources */,
+				E7A70B8D1C7ED79700F15FB6 /* caption.jpg in Resources */,
+				E7A70B8E1C7ED79700F15FB6 /* vinyl.jpg in Resources */,
 				E7A70B671C7ED4E100F15FB6 /* Main.storyboard in Resources */,
+				E7A70B8A1C7ED79700F15FB6 /* 16755382-Seamless-pattern-texture-or-background-with-light-bulbs-on-yellow-background-Sign-of-creative-invent-Stock-Vector.jpg in Resources */,
 				E7A70B6C1C7ED4E100F15FB6 /* LaunchScreen.xib in Resources */,
+				E7A70B8C1C7ED79700F15FB6 /* batmanvssuperman.jpg in Resources */,
 				E7A70B691C7ED4E100F15FB6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A70B641C7ED4E100F15FB6 /* ViewController.m in Sources */,
+				E7A70B831C7ED51D00F15FB6 /* MYTableViewCell.m in Sources */,
 				E7A70B611C7ED4E100F15FB6 /* AppDelegate.m in Sources */,
 				E7A70B5E1C7ED4E100F15FB6 /* main.m in Sources */,
 			);

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "MYTableViewCell.h"
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    NSArray *arr_title;
+    NSArray *arr_desc;
+    NSArray *arr_img;
+}
+@property (weak, nonatomic) IBOutlet UITableView *tbl_vw;
 @end
 
